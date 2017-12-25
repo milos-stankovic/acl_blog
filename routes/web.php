@@ -28,3 +28,7 @@ Route::resource('roles', 'RoleController');
 Route::resource('permissions', 'PermissionController');
 
 Route::resource('posts', 'PostController');
+
+Route::resource('projects', 'ProjectController');
+
+Route::resource('companies', 'CompanyController');
